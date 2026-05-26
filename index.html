@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Peer Potential Mock Trial, the largest, longest-running and non-profit English high school mock trial platform nationwide."
+    />
+    <title>Peer Potential Mock Trial</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header" aria-label="Site header">
+        <a class="brand" href="#about" data-target="about" aria-label="Peer Potential Mock Trial home">
+          <img src="/assets/uploads/ppmt-logo-original.jpg" alt="Peer Potential Mock Trial logo" />
+          <span>Peer Potential Mock Trial</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#about" data-target="about" class="is-active">About</a>
+          <a href="#our-story" data-target="our-story">Our Story</a>
+          <a href="#registration" data-target="registration">Registration</a>
+          <a href="#results" data-target="results">Results</a>
+          <a href="#resources" data-target="resources">Resources</a>
+          <a href="#partners" data-target="partners">Partners</a>
+          <a href="#people" data-target="people">People</a>
+          <a href="#privacy-policy" data-target="privacy-policy">Privacy Policy</a>
+        </nav>
+        <div class="editor-controls" aria-label="Layout editor controls">
+          <button type="button" id="toggle-edit">Edit Layout</button>
+          <button type="button" id="reset-layout">Reset</button>
+          <button type="button" id="export-layout">Export</button>
+        </div>
+      </header>
+
+      <main id="panel-root" aria-live="polite">
+        <section id="about" class="page-section is-active" data-section>
+          <h1>About</h1>
+          <div class="about-top">
+            <div>
+              <p class="intro-statement">
+                The largest, longest-running and non-profit English high school mock trial platform nationwide.
+              </p>
+              <p class="intro-copy">
+                Peer Potential Mock Trial is a non-profit, student-run platform and the largest, longest-running English high school mock trial community in China. We offer competitions rigorous enough to challenge future attorneys, yet we also carry the mission of making mock trial more accessible for all high schoolers.
+              </p>
+            </div>
+            <div class="about-photos" aria-label="PPMT group photos">
+              <img class="about-photo a1 editable-item" data-edit-id="about-a1" src="/assets/uploads/group/group-1.jpg" alt="PPMT group photo" />
+              <img class="about-photo a2 editable-item" data-edit-id="about-a2" src="/assets/uploads/group/group-2.jpg" alt="PPMT group photo" />
+              <img class="about-photo a3 editable-item" data-edit-id="about-a3" src="/assets/uploads/group/group-3.jpg" alt="PPMT group photo" />
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <article>
+              <h2>Our mentorship program</h2>
+              <p>
+                We offer free coaching to teach beginners from scratch. Our coaches are from the nation’s most prestigious mock trial teams, and our sessions include hands-on, 1V1 feedback for free.
+              </p>
+            </article>
+            <article>
+              <h2>Our community</h2>
+              <p>
+                Joining PPMT means connecting with a vast alumni network. Today, from collegiate mock trial teams at Yale, MIT, and the University of Chicago to law school classrooms at Harvard, Penn, and Columbia, PPMT alumni continue to leave their mark around the world.
+              </p>
+            </article>
+          </div>
+
+          <a class="primary-button" href="#registration" data-target="registration">Register now</a>
+        </section>
+
+        <section id="our-story" class="page-section" data-section>
+          <h1>Our Story</h1>
+          <div class="story-copy">
+            <p>
+              Peer Potential Mock Trial was founded in 2014 as a way to bring American Mock Trial Association rules to Chinese high schoolers, many of whom competed in English despite not speaking it as a first language. Within a few years of its inception, Peer Potential’s alumni were competing for top-10 American college mock trial programs. A short while later, they were earning admission to top law schools and crediting their high school experiences for their success.
+            </p>
+            <p>Today, PPMT alumni continue to leave their mark around the world.</p>
+            <p>
+              Every summer, these students and alumni gather again for a long-awaited reunion — arguing cases, meeting their closest friends, having fun at PPnight, and leaving with far more than just awards.
+            </p>
+          </div>
+
+          <div class="story-gallery" aria-label="Competition and social gallery">
+            <div class="gallery-column left">
+              <img class="tile c1 editable-item" data-edit-id="story-c1" src="/assets/uploads/competition/comp-1.jpg" alt="PPMT competition moment" />
+              <img class="tile c2 editable-item" data-edit-id="story-c2" src="/assets/uploads/competition/comp-2.jpg" alt="PPMT competition moment" />
+              <img class="tile c3 editable-item" data-edit-id="story-c3" src="/assets/uploads/competition/comp-3.jpg" alt="PPMT competition moment" />
+              <img class="tile c4 editable-item" data-edit-id="story-c4" src="/assets/uploads/competition/comp-4.jpg" alt="PPMT competition moment" />
+              <img class="tile c5 editable-item" data-edit-id="story-c5" src="/assets/uploads/competition/comp-5.jpg" alt="PPMT competition moment" />
+            </div>
+            <div class="gallery-column center">
+              <img class="tile center-large editable-item" data-edit-id="story-center" src="/assets/uploads/social/center-photo.png" alt="PPMT social moment" />
+            </div>
+            <div class="gallery-column right">
+              <img class="tile s2 editable-item" data-edit-id="story-s2" src="/assets/uploads/social/social-2.jpg" alt="PPMT social moment" />
+              <img class="tile s3 editable-item" data-edit-id="story-s3" src="/assets/uploads/social/social-3.jpg" alt="PPMT social moment" />
+              <img class="tile s4 editable-item" data-edit-id="story-s4" src="/assets/uploads/social/social-4.jpg" alt="PPMT social moment" />
+            </div>
+          </div>
+          <img
+            class="tile story-extra editable-item"
+            data-edit-id="story-extra"
+            src="/assets/uploads/social/social-extra-1.jpg"
+            alt="PPMT extra story photo"
+          />
+
+          <a class="secondary-button" href="#people" data-target="people">Meet the People Behind PPMT</a>
+        </section>
+
+        <section id="registration" class="page-section" data-section>
+          <h1>Registration</h1>
+          <div class="registration-hero">
+            <p><strong>2026 competition date:</strong> August 6th to 9th</p>
+            <p><strong>competition registration deadline:</strong> 7/1</p>
+            <a class="primary-button" href="https://example.com/questionnaire" target="_blank" rel="noreferrer">Register Now</a>
+          </div>
+
+          <div class="faq-stack">
+            <article>
+              <h2>How many students are on a team in PPMT 2026 summer?</h2>
+              <p>A minimum of 4 students is required per team signup.</p>
+            </article>
+            <article>
+              <h2>When will the case packet be released?</h2>
+              <p>The case packet will be released about 1 month prior to the competition via captain email.</p>
+            </article>
+            <article>
+              <h2>Can students register without a full team?</h2>
+              <p>Yes. Individual signups are open, and we will pair students up to form a team.</p>
+            </article>
+            <article>
+              <h2>How do I sign up for the mentorship program?</h2>
+              <p>Click register now.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="results" class="page-section" data-section>
+          <h1>Results</h1>
+          <div class="cards-grid two-col">
+            <article><h2>outstanding teams</h2><p>Placeholder</p></article>
+            <article><h2>championship round results</h2><p>Placeholder</p></article>
+            <article><h2>outstanding witnesses</h2><p>Placeholder</p></article>
+            <article><h2>outstanding attorneys</h2><p>Placeholder</p></article>
+          </div>
+        </section>
+
+        <section id="resources" class="page-section" data-section>
+          <h1>Resources</h1>
+          <div class="resource-list">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">Past mentorship videos linked to YouTube</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">Past round recordings linked to YouTube</a>
+            <a href="#">past case packets with downloadable pdfs</a>
+            <a href="#">Other training materials</a>
+          </div>
+        </section>
+
+        <section id="partners" class="page-section" data-section>
+          <h1>Partners</h1>
+          <div class="cards-grid partner-grid">
+            <article><h2>Partner 01</h2><p>Logo placeholder and introduction placeholder.</p></article>
+            <article><h2>Partner 02</h2><p>Logo placeholder and introduction placeholder.</p></article>
+            <article><h2>Partner 03</h2><p>Logo placeholder and introduction placeholder.</p></article>
+            <article><h2>Partner 04</h2><p>Logo placeholder and introduction placeholder.</p></article>
+          </div>
+        </section>
+
+        <section id="people" class="page-section" data-section>
+          <h1>People</h1>
+          <p class="people-subtitle">A student-run platform, held together by passion and legacy.</p>
+          <div class="quotes">
+            <blockquote>
+              “The confidence, leadership, writing, and public speaking skills I gained through PPMT helped me tremendously in college applications and everyday life. Whether it was the adrenaline in the courtroom or everyone singing together at PP Night, this community gave me so many unforgettable memories.”
+              <cite>—Annie Long, Claremont McKenna College ’30</cite>
+            </blockquote>
+            <blockquote>
+              “PPMT taught me to approach questions with dialectical, critical, and rigorous thinking. It gave me the confidence and conviction to choose the legal path, and it also introduced me to a group of friends who mean a great deal to me.”
+              <cite>—Clara Jiang, Vanderbilt '23, Columbia Law School</cite>
+            </blockquote>
+            <blockquote>
+              “PPMT gave me more than stronger debate and analytical skills. More importantly, through repeated rounds and team collaboration, I built real confidence and leadership. Every year I was moved by peers who loved mock trial and were willing to invest time in supporting one another. As a PPMT alum, I hope to keep passing that support and passion forward.”
+              <cite>—Bowen Duan, Yale College</cite>
+            </blockquote>
+            <blockquote>
+              “As an educator and promoter, I want to coach more students and bring more students to competitions in the U.S., so they can compete on equal footing with top high school advocates.”
+              <cite>—Max Wang</cite>
+            </blockquote>
+          </div>
+        </section>
+
+        <section id="privacy-policy" class="page-section" data-section>
+          <h1>Privacy Policy</h1>
+          <article class="privacy-placeholder">
+            <p>Placeholder privacy policy section for now.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const navLinks = [...document.querySelectorAll("nav a")];
+      const actionLinks = [...document.querySelectorAll("[data-target]")];
+      const sections = [...document.querySelectorAll("[data-section]")];
+
+      function setActive(sectionId, pushHash = true) {
+        sections.forEach((section) => {
+          section.classList.toggle("is-active", section.id === sectionId);
+        });
+        navLinks.forEach((link) => {
+          link.classList.toggle("is-active", link.dataset.target === sectionId);
+        });
+        if (pushHash) {
+          history.replaceState(null, "", `#${sectionId}`);
+        }
+      }
+
+      actionLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const target = link.dataset.target;
+          if (!target) return;
+          event.preventDefault();
+          setActive(target, true);
+        });
+      });
+
+      const initialHash = window.location.hash.replace("#", "");
+      const defaultId = sections.some((s) => s.id === initialHash) ? initialHash : "about";
+      setActive(defaultId, false);
+
+      window.addEventListener("hashchange", () => {
+        const sectionId = window.location.hash.replace("#", "");
+        if (sections.some((s) => s.id === sectionId)) {
+          setActive(sectionId, false);
+        }
+      });
+
+      const boxedSelectors = ".about-cards article, .faq-stack article, .cards-grid article, .privacy-placeholder, .resource-list a";
+      const buttonSelectors = ".primary-button, .secondary-button, .editor-controls button";
+      const boxedEditItems = [...document.querySelectorAll(boxedSelectors)];
+      boxedEditItems.forEach((item, index) => {
+        item.classList.add("editable-item", "editable-box");
+        item.dataset.editId ||= `box-${item.closest(".page-section")?.id || "global"}-${index}`;
+      });
+
+      const buttonEditItems = [...document.querySelectorAll(buttonSelectors)];
+      buttonEditItems.forEach((item, index) => {
+        item.classList.add("editable-item", "editable-box");
+        item.dataset.editId ||= `btn-${item.closest(".page-section")?.id || "global"}-${index}`;
+      });
+
+      const textCandidates = [...document.querySelectorAll(".page-section h1, .page-section h2, .page-section p, .page-section blockquote, .page-section cite")];
+      const unboxedTextItems = textCandidates.filter((item) => !item.closest(boxedSelectors));
+      unboxedTextItems.forEach((item, index) => {
+        item.classList.add("editable-item", "editable-text");
+        item.dataset.editId ||= `text-${item.closest(".page-section")?.id || "section"}-${index}`;
+      });
+
+      const editableItems = [...document.querySelectorAll(".editable-item")];
+      const editKey = "ppmt-layout-edits-v1";
+      const toggleBtn = document.getElementById("toggle-edit");
+      const resetBtn = document.getElementById("reset-layout");
+      const exportBtn = document.getElementById("export-layout");
+      let editMode = false;
+      let activeItem = null;
+      let dragState = null;
+      let resizeState = null;
+      const layoutState = {};
+
+      function applyItemTransform(item) {
+        const id = item.dataset.editId;
+        const st = layoutState[id] || { x: 0, y: 0, s: 1 };
+        item.style.transform = `translate(${st.x}px, ${st.y}px) scale(${st.s})`;
+        if (item.classList.contains("editable-text") || item.classList.contains("editable-box")) {
+          item.style.width = st.w ? `${st.w}px` : "";
+          item.style.height = st.h ? `${st.h}px` : "";
+        }
+      }
+
+      function saveState() {
+        localStorage.setItem(editKey, JSON.stringify(layoutState));
+      }
+
+      function loadState() {
+        const raw = localStorage.getItem(editKey);
+        if (!raw) return;
+        try {
+          const parsed = JSON.parse(raw);
+          Object.assign(layoutState, parsed);
+        } catch {}
+      }
+
+      function refreshAll() {
+        editableItems.forEach((item) => {
+          const id = item.dataset.editId;
+          if (!layoutState[id]) layoutState[id] = { x: 0, y: 0, s: 1 };
+          applyItemTransform(item);
+        });
+      }
+
+      function setEditMode(on) {
+        editMode = on;
+        document.body.classList.toggle("edit-mode", on);
+        toggleBtn.textContent = on ? "Done Editing" : "Edit Layout";
+      }
+
+      editableItems.forEach((item) => {
+        if ((item.classList.contains("editable-text") || item.classList.contains("editable-box")) && !item.querySelector(".resize-handle")) {
+          const handle = document.createElement("span");
+          handle.className = "resize-handle";
+          handle.setAttribute("aria-hidden", "true");
+          item.appendChild(handle);
+          handle.addEventListener("pointerdown", (e) => {
+            if (!editMode) return;
+            e.preventDefault();
+            e.stopPropagation();
+            activeItem = item;
+            editableItems.forEach((el) => el.classList.remove("is-selected"));
+            item.classList.add("is-selected");
+            const id = item.dataset.editId;
+            const st = layoutState[id];
+            resizeState = {
+              id,
+              startX: e.clientX,
+              startY: e.clientY,
+              w: st.w || item.getBoundingClientRect().width,
+              h: st.h || item.getBoundingClientRect().height,
+            };
+            item.setPointerCapture(e.pointerId);
+          });
+        }
+
+        item.addEventListener("click", (e) => {
+          if (!editMode) return;
+          e.stopPropagation();
+          editableItems.forEach((el) => el.classList.remove("is-selected"));
+          item.classList.add("is-selected");
+          activeItem = item;
+        });
+
+        item.addEventListener("pointerdown", (e) => {
+          if (!editMode) return;
+          if (e.target.classList.contains("resize-handle")) return;
+          e.preventDefault();
+          activeItem = item;
+          editableItems.forEach((el) => el.classList.remove("is-selected"));
+          item.classList.add("is-selected");
+          item.setPointerCapture(e.pointerId);
+          const id = item.dataset.editId;
+          const st = layoutState[id];
+          dragState = { id, startX: e.clientX, startY: e.clientY, x: st.x, y: st.y };
+        });
+      });
+
+      window.addEventListener("pointermove", (e) => {
+        if (!editMode) return;
+        if (dragState) {
+          const st = layoutState[dragState.id];
+          st.x = dragState.x + (e.clientX - dragState.startX);
+          st.y = dragState.y + (e.clientY - dragState.startY);
+          applyItemTransform(activeItem);
+        }
+        if (resizeState && (activeItem?.classList.contains("editable-text") || activeItem?.classList.contains("editable-box"))) {
+          const st = layoutState[resizeState.id];
+          st.w = Math.max(140, Math.round(resizeState.w + (e.clientX - resizeState.startX)));
+          st.h = Math.max(40, Math.round(resizeState.h + (e.clientY - resizeState.startY)));
+          applyItemTransform(activeItem);
+        }
+      });
+
+      window.addEventListener("pointerup", () => {
+        if (!editMode) return;
+        if (activeItem?.classList.contains("editable-text") || activeItem?.classList.contains("editable-box")) {
+          const id = activeItem.dataset.editId;
+          const st = layoutState[id];
+          st.w = Math.round(activeItem.getBoundingClientRect().width);
+          st.h = Math.round(activeItem.getBoundingClientRect().height);
+          applyItemTransform(activeItem);
+        }
+        dragState = null;
+        resizeState = null;
+        saveState();
+      });
+
+      window.addEventListener(
+        "wheel",
+        (e) => {
+          if (!editMode || !activeItem) return;
+          if (!activeItem.matches(":hover")) return;
+          if (activeItem.classList.contains("editable-text") || activeItem.classList.contains("editable-box")) return;
+          e.preventDefault();
+          const id = activeItem.dataset.editId;
+          const st = layoutState[id];
+          const delta = e.deltaY > 0 ? -0.03 : 0.03;
+          st.s = Math.min(2.2, Math.max(0.5, +(st.s + delta).toFixed(3)));
+          applyItemTransform(activeItem);
+          saveState();
+        },
+        { passive: false }
+      );
+
+      document.addEventListener("click", () => {
+        if (!editMode) return;
+        editableItems.forEach((el) => el.classList.remove("is-selected"));
+        activeItem = null;
+      });
+
+      toggleBtn.addEventListener("click", () => setEditMode(!editMode));
+
+      resetBtn.addEventListener("click", () => {
+        Object.keys(layoutState).forEach((k) => (layoutState[k] = { x: 0, y: 0, s: 1 }));
+        refreshAll();
+        saveState();
+      });
+
+      exportBtn.addEventListener("click", async () => {
+        const output = JSON.stringify(layoutState, null, 2);
+        try {
+          await navigator.clipboard.writeText(output);
+          exportBtn.textContent = "Copied";
+          setTimeout(() => (exportBtn.textContent = "Export"), 900);
+        } catch {
+          console.log(output);
+        }
+      });
+
+      loadState();
+      refreshAll();
+    </script>
+  </body>
+</html>
